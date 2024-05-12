@@ -2,6 +2,7 @@
     background-color: #bf3b3b !important; /* Cor de fundo vermelha */
     color: white !important; /* Cor do texto branco */
 }
+
 footer {
     position: fixed;
     left: 0;
@@ -9,3 +10,17 @@ footer {
     width: 100%;
 }
 
+@media (max-width: 600px) {
+    .content {
+        display: none;
+    }
+
+    #mobile-message {
+        display: block !important;
+    }
+}
+
+#mobile-message {
+    display: none;
+    text-align: center;
+}
