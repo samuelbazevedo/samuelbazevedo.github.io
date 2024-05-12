@@ -1,0 +1,11 @@
+.nav-link.active {
+    background-color: #bf3b3b !important; /* Cor de fundo vermelha */
+    color: white !important; /* Cor do texto branco */
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
